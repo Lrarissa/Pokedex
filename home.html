@@ -3,12 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="shortcut icon" href="favicon/favicon-16x16.png" type="image/x-icon">
+   <link rel="stylesheet" href="CSS/estilos.css">
     <title>Pokédex</title>
 </head>
 <body>
-    <p>
+    <main>
+        <img src="favicon/favicon-16x16.png" alt="pokemon"class="pokemon_imagem">
+          
+        <h1 class="pokemon_data">
+            <span class="pokemon_num">06 </span> -
+            <span class="pokemon_nome">charizard</span>
+        </h1>
 
-    </p>
+        <form class="form">
+            <input
+            type="search"
+            class="input_search"
+            placeholder="Nome ou Número"
+            required
+            />
+        </form>
+
+        <div class="buttons">
+            <button class="button btn-prev">Voltar &lt;</button>
+            <button class="button btn-next">Próximo &gt;</button>
+        </div>
+
+        <img src="Imagens/pokedex.png" alt="Pokédex" class="pokedex">
+    </main>
 </body>
 </html>
