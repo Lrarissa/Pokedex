@@ -10,7 +10,6 @@ const fetchPokemon = async (pokemon)=> {
 const renderPokemon = async (pokemon) => {
      const data = await fetchPokemon(pokemon);
      
-
 }
 
 renderPokemon('25')
